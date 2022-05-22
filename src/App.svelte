@@ -5,9 +5,9 @@
 
 <main>
   <div class="container">
-    <div class="row">
+    <div class="row max-w-sm mx-auto">
       <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6">
-        <h1 class="text-rose-500 text-2xl">Checking if the font is working.</h1>
+        <h1 class="text-rose-900 text-3xl font-roobert ">Checking if the font is working.</h1>
         <h4>Headers</h4>
         <p>A site can define styles for headers</p>
         <h1>First Header</h1>
@@ -53,7 +53,7 @@
 
 
   /* Feel free to add or remove as needed */
-  @media screen and (max-width:1199px) {}
+  /* @media screen and (max-width:1199px) {}
 
   @media screen and (max-width:991px) {}
 
@@ -61,5 +61,5 @@
 
   @media screen and (max-width:575px) {}
 
-  @media screen and (max-width:420px) {}
+  @media screen and (max-width:420px) {} */
 </style>
