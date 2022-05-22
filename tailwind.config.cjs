@@ -2,6 +2,13 @@ const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
+    maxWidth: {
+      sm: "590px",
+      md: "690px",
+      lg: "790px",
+      xl: "890px",
+      "2xl": "960px",
+    },
     screens: {
       sm: "420px",
       // => @media (min-width: 640px) { ... }
@@ -22,14 +29,17 @@ const config = {
       sans: ["Roobert-TRIAL, sans-serif"],
     },
     extend: {
+      spacing: {
+        15: "15px",
+      },
       colors: {
         mint: "#E3F7F1",
         teal: "#005866",
-        text: "#1f1111",
-        gray: "#D9D8D6",
-        light: "#E5E5E5",
-        off: "#FAFAFA",
-        yellow: "#FFDD00",
+        //   text: "#1f1111",
+        //   gray: "#D9D8D6",
+        //   light: "#E5E5E5",
+        //   off: "#FAFAFA",
+        //   yellow: "#FFDD00",
       },
     },
   },
